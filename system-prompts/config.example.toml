@@ -1,0 +1,40 @@
+# Kimi Code 配置模板
+# 请复制此文件为 config.toml 并填入真实的API密钥和URL
+
+default_model = "flow/claude-haiku-4-5"
+default_permission_mode = "yolo"
+default_plan_mode = true
+
+[providers.flow]
+base_url = "https://your-api-endpoint"
+type = "anthropic"
+api_key = "sk-your-api-key-here"
+
+[providers.deepseek]
+base_url = "https://api.deepseek.com"
+type = "openai"
+api_key = "sk-your-deepseek-key-here"
+
+# 模型配置示例
+[models."flow/claude-opus-5"]
+provider = "flow"
+model = "claude-opus-5"
+max_context_size = 1048576
+capabilities = [ "tool_use", "thinking" ]
+display_name = "claude-opus-5"
+adaptive_thinking = true
+
+[models."deepseek/deepseek-flash"]
+provider = "deepseek"
+model = "deepseek-flash"
+max_context_size = 65536
+capabilities = [ "tool_use" ]
+display_name = "DeepSeek Flash"
+adaptive_thinking = false
+
+[thinking]
+enabled = true
+effort = "medium"
+
+[secondary_model]
+default_model = "deepseek/deepseek-flash"
