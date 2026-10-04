@@ -23,6 +23,15 @@ kimicodeskills_mcps/
 ├── mcp-config/                # MCP服务器配置
 │   └── mcp.json               # MCP工具定义
 │
+├── clash-config/              # Clash Verge Rev 配置
+│   ├── config.yaml            # Clash 核心配置
+│   ├── verge.yaml             # Clash Verge 客户端配置
+│   ├── dns_config.yaml        # DNS 配置
+│   ├── profiles.yaml          # 配置文件管理
+│   ├── profiles/              # 各个配置文件（代理、规则等）
+│   ├── ruleset/               # 规则集文件
+│   └── README.md              # Clash 配置说明
+│
 └── docs/                      # 文档和使用说明
     └── SETUP.md               # 安装和使用指南
 ```
@@ -87,6 +96,18 @@ PDF文件处理工具，支持读取、合并、拆分等操作。
 
 ### web-research
 网络研究工具，用于高效的互联网搜索和信息检索。
+
+## 🌐 Clash Verge Rev 配置
+
+`clash-config/` 目录包含完整的 Clash Verge Rev 代理配置：
+
+- **config.yaml**: 核心Clash配置（端口、DNS、TUN模式等）
+- **verge.yaml**: Clash Verge客户端设置
+- **dns_config.yaml**: DNS解析配置
+- **profiles/**: 代理配置、规则、脚本等
+- **ruleset/**: 流量分流规则
+
+详见 `clash-config/README.md`。
 
 ## 🔧 系统配置说明
 

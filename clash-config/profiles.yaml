@@ -1,0 +1,109 @@
+# Profiles Config for Clash Verge
+
+current: RUw6UxUMxI6c
+items:
+- uid: Merge
+  type: merge
+  name: null
+  file: Merge.yaml
+  updated: 1787451304
+- uid: Script
+  type: script
+  name: null
+  file: Script.js
+  updated: 1787451304
+- uid: mOo53dqpOAHl
+  type: merge
+  name: null
+  file: mOo53dqpOAHl.yaml
+  updated: 1787451815
+- uid: svnDAcroLmsD
+  type: script
+  name: null
+  file: svnDAcroLmsD.js
+  updated: 1787451815
+- uid: rvZM1X3o7Pwr
+  type: rules
+  name: null
+  file: rvZM1X3o7Pwr.yaml
+  updated: 1787451815
+- uid: p8e5LydQVXTi
+  type: proxies
+  name: null
+  file: p8e5LydQVXTi.yaml
+  updated: 1787451815
+- uid: g4LVo5QyO21i
+  type: groups
+  name: null
+  file: g4LVo5QyO21i.yaml
+  updated: 1787451815
+- uid: RBDyqk6jP4cd
+  type: remote
+  name: 魔戒.net
+  file: RBDyqk6jP4cd.yaml
+  url: https://43.129.78.33:5000/api/v1/client/subscribe?token=979f2e922d30ff9006b420c1a9bcf1aa
+  selected:
+  - name: 节点选择
+    now: 日本JP-HY2
+  extra:
+    upload: 5321979257
+    download: 129342769542
+    total: 139586437120
+    expire: 0
+  updated: 1791033767
+  option:
+    update_interval: 1440
+    allow_auto_update: true
+    merge: mOo53dqpOAHl
+    script: svnDAcroLmsD
+    rules: rvZM1X3o7Pwr
+    proxies: p8e5LydQVXTi
+    groups: g4LVo5QyO21i
+  home: https://mojie.app/
+- uid: m5TIcJaKhpS3
+  type: merge
+  name: null
+  file: m5TIcJaKhpS3.yaml
+  updated: 1790867770
+- uid: spQMZazV9Y5G
+  type: script
+  name: null
+  file: spQMZazV9Y5G.js
+  updated: 1790867770
+- uid: rc3bZ1YAa7MQ
+  type: rules
+  name: null
+  file: rc3bZ1YAa7MQ.yaml
+  updated: 1790867770
+- uid: plXicVaiAqyp
+  type: proxies
+  name: null
+  file: plXicVaiAqyp.yaml
+  updated: 1790867770
+- uid: gpXx4Zw9iLtT
+  type: groups
+  name: null
+  file: gpXx4Zw9iLtT.yaml
+  updated: 1790867770
+- uid: RUw6UxUMxI6c
+  type: remote
+  name: 赔钱机场
+  file: RUw6UxUMxI6c.yaml
+  url: https://dasho.xn--cp3a08l.com/api/v1/pq/a792cf6c5099b09981b013351b0218ae
+  selected:
+  - name: 🚀 策略选择
+    now: 🇸🇬 新加坡节点
+  extra:
+    upload: 233298800
+    download: 10523262054
+    total: 1073741824000
+    expire: 0
+  updated: 1791078834
+  option:
+    update_interval: 1440
+    allow_auto_update: true
+    merge: m5TIcJaKhpS3
+    script: spQMZazV9Y5G
+    rules: rc3bZ1YAa7MQ
+    proxies: plXicVaiAqyp
+    groups: gpXx4Zw9iLtT
